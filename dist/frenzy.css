@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+:root {
+    --eerie-black: #1E2019;
+    --primary-font: "Days One", sans-serif;
+    --orange: #EA612D;
+}
+
+* {
+    cursor: none; /* Hide default cursor for all elements */
+}
+
+.project {
+    margin-top: 120px;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title #cupid2 {
+    transform: scaleX(-1);
+}
+
+
+.project-title h1 {
+    font-family: var(--primary-font);
+    color: var(--orange);
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.introduction {
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.introduction h2 {
+    font-family: var(--primary-font);
+    color: var(--orange);
+}
+
+.introduction p {
+    color: white;
+    font-size: 24px;
+    width: 1200px;
+}
+
+.discovery {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    margin-top: 120px;
+    text-align: right;
+    justify-content: right;
+    margin-right: 120px;
+}
+
+.discovery h2 {
+    font-family: var(--primary-font);
+    color: var(--orange);
+    text-align: right;
+}
+
+.discovery p {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+    width: 1200px;
+    text-align: right;
+}
+
+.discovery-content img {
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.discovery-content img:hover {
+    transform: scale(101%);
+    filter: drop-shadow(0 0 10px rgba(255, 98, 0, 0.9));
+}
+
+.research {
+    margin-top: 120px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.research h2 {
+    font-family: var(--primary-font);
+    color: var(--orange);
+}
+
+.research p {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+    width: 1200px;
+}
+
+.research-content img {
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.research-content img:hover {
+    transform: scale(101%);
+    filter: drop-shadow(0 0 10px rgba(255, 98, 0, 0.9));
+    overflow: hidden;
+}
+
+.concept {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    margin-top: 120px;
+    text-align: right;
+    justify-content: right;
+    margin-right: 120px;
+}
+
+.concept h2 {
+    font-family: var(--primary-font);
+    color: var(--orange);
+    text-align: right;
+}
+
+.concept p {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+    width: 1200px;
+    text-align: right;
+}
